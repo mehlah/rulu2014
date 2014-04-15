@@ -3315,17 +3315,21 @@ body > footer {
   /* line 5, /home/mike/code/rulu2014/source/css/_speakers.scss */
   .speakers li img {
     border-radius: 100px;
-    max-width: 70%; }
+    max-width: 99%; }
 
-/* line 13, /home/mike/code/rulu2014/source/css/_speakers.scss */
+/* line 12, /home/mike/code/rulu2014/source/css/_speakers.scss */
+.speaker-name {
+  margin-top: 20px; }
+
+/* line 17, /home/mike/code/rulu2014/source/css/_speakers.scss */
 #speakers article, #workshops article {
   padding-top: 1.875em;
   position: relative; }
-  /* line 16, /home/mike/code/rulu2014/source/css/_speakers.scss */
+  /* line 20, /home/mike/code/rulu2014/source/css/_speakers.scss */
   #speakers article img, #workshops article img {
     border-radius: 100px; }
 
-/* line 24, /home/mike/code/rulu2014/source/css/_speakers.scss */
+/* line 28, /home/mike/code/rulu2014/source/css/_speakers.scss */
 #speakers article > div:first-child {
   background-image: url("../img/greyline-016933d3.png");
   background-position: 50% 0;
@@ -3334,7 +3338,7 @@ body > footer {
   left: 0;
   height: 100%;
   text-align: center; }
-  /* line 33, /home/mike/code/rulu2014/source/css/_speakers.scss */
+  /* line 37, /home/mike/code/rulu2014/source/css/_speakers.scss */
   #speakers article > div:first-child p.start {
     font-size: 0.75em;
     text-align: left;
@@ -3342,24 +3346,24 @@ body > footer {
     margin: 0.625em 0 1.875em 30%;
     background: imge_url("green_dot.png") 1px -1px no-repeat;
     color: #aaa; }
-    /* line 41, /home/mike/code/rulu2014/source/css/_speakers.scss */
+    /* line 45, /home/mike/code/rulu2014/source/css/_speakers.scss */
     #speakers article > div:first-child p.start.break {
       background: url("../img/grey_dot-ac1ed134.png") 1px -1px no-repeat;
       margin-top: 0.375em !important; }
-/* line 47, /home/mike/code/rulu2014/source/css/_speakers.scss */
+/* line 51, /home/mike/code/rulu2014/source/css/_speakers.scss */
 #speakers article > div:nth-child(2) {
   margin-left: 25%; }
 
 @media only screen and (min-width: 768px) {
-  /* line 56, /home/mike/code/rulu2014/source/css/_speakers.scss */
+  /* line 60, /home/mike/code/rulu2014/source/css/_speakers.scss */
   #speakers article > div:first-child p.start {
     margin-top: 1.375em !important;
     margin-left: 42%; }
-  /* line 62, /home/mike/code/rulu2014/source/css/_speakers.scss */
+  /* line 66, /home/mike/code/rulu2014/source/css/_speakers.scss */
   #speakers article > div:nth-child(2) {
     margin-left: 16.66667%; } }
 @media screen and (min-width: 420px) {
-  /* line 71, /home/mike/code/rulu2014/source/css/_speakers.scss */
+  /* line 75, /home/mike/code/rulu2014/source/css/_speakers.scss */
   #speakers article > div:first-child p.start {
     margin: 0.625em 0 1.875em 42%; } }
 /* line 2, /home/mike/code/rulu2014/source/css/_sponsors.scss */
@@ -3408,9 +3412,13 @@ body > footer {
     /* line 41, /home/mike/.rvm/gems/ruby-2.1.0@rulu2014/gems/zurb-foundation-4.3.1/scss/foundation/components/_block-grid.scss */
     .sponsors-block-grid > li:nth-of-type(2.1n+1) {
       clear: both; }
+  /* line 24, /home/mike/code/rulu2014/source/css/_sponsors.scss */
+  .sponsors-block-grid li {
+    background-color: white;
+    padding: 1em; }
 
 @media only screen and (min-width: 768px) {
-  /* line 27, /home/mike/code/rulu2014/source/css/_sponsors.scss */
+  /* line 31, /home/mike/code/rulu2014/source/css/_sponsors.scss */
   .sponsors-block-grid {
     display: block;
     padding: 0;
@@ -3438,8 +3446,12 @@ body > footer {
         clear: none; }
       /* line 41, /home/mike/.rvm/gems/ruby-2.1.0@rulu2014/gems/zurb-foundation-4.3.1/scss/foundation/components/_block-grid.scss */
       .sponsors-block-grid > li:nth-of-type(3.3n+1) {
-        clear: both; } }
+        clear: both; }
+    /* line 33, /home/mike/code/rulu2014/source/css/_sponsors.scss */
+    .sponsors-block-grid li {
+      background-color: white;
+      padding: 1em; } }
 /* line 2, /home/mike/code/rulu2014/source/css/_workshops.scss */
 #workshops article img {
-  max-width: 60%;
+  max-width: 80%;
   margin-bottom: 0.75em; }
